@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">projekt2</string>
+    <string name="projekt1Package">com.jmatuszny.projekt1</string>
+    <string name="addProduct">com.jmatuszny.projekt1.ADD_PRODUCT</string>
+    <string name="channelID">channelAP</string>
+    <string name="channelName">Product channel</string>
+    <string name="editProductActivity">com.jmatuszny.projekt1.EditProductActivity</string>
+    <string name="productListActivity">com.jmatuszny.projekt1.ProductListActivity</string>
+</resources>

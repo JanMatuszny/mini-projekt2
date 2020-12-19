@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">projekt1</string>
+    <string name="options">Options</string>
+    <string name="buttons_size">Buttons size</string>
+    <string name="white">White</string>
+    <string name="green">Green</string>
+    <string name="cyan">Cyan</string>
+    <string name="products">Products</string>
+    <string name="addProduct">com.jmatuszny.projekt1.ADD_PRODUCT</string>
+</resources>
