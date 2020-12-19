@@ -11,16 +11,7 @@ import androidx.core.app.NotificationManagerCompat
 
 class MyService : Service() {
 
-    private var mBinder: MyBinder
     private var id = 0
-
-    init {
-        mBinder = MyBinder()
-    }
-
-    inner class MyBinder: Binder() {
-        fun getService(): MyService = this@MyService
-    }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         super.onStartCommand(intent, flags, startId)
@@ -33,7 +24,7 @@ class MyService : Service() {
     }
 
     override fun onBind(intent: Intent?): IBinder? {
-        return mBinder
+        TODO()
     }
 
     private fun sendNotification(intent: Intent) {
