@@ -9,36 +9,77 @@
 
     <Button
         android:id="@+id/OptionsButton"
-        android:layout_width="100dp"
+        android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginStart="159dp"
-        android:layout_marginLeft="159dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="159dp"
-        android:layout_marginRight="159dp"
-        android:layout_marginBottom="176dp"
-        android:text="@string/options"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="120dp"
         android:backgroundTint="@color/teal_700"
+        android:text="@string/options"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ProductListButton" />
+        app:layout_constraintTop_toBottomOf="@+id/PublicProductsButton" />
 
     <Button
         android:id="@+id/ProductListButton"
-        android:layout_width="141dp"
-        android:layout_height="48dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:layout_marginStart="159dp"
         android:layout_marginLeft="159dp"
         android:layout_marginTop="424dp"
         android:layout_marginEnd="159dp"
         android:layout_marginRight="159dp"
-        android:layout_marginBottom="15dp"
-        android:text="@string/products"
+        android:layout_marginBottom="10dp"
         android:backgroundTint="@color/teal_700"
-        app:layout_constraintBottom_toTopOf="@+id/OptionsButton"
+        android:text="@string/products"
+        app:layout_constraintBottom_toTopOf="@+id/PublicProductsButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:text="Hello!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/PublicProductsButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="public products"
+        app:layout_constraintBottom_toTopOf="@+id/OptionsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProductListButton"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/ShopListButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Shop list"
+        app:layout_constraintBottom_toTopOf="@+id/ProductListButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

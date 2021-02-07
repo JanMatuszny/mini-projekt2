@@ -5,6 +5,11 @@
     <string name="white">White</string>
     <string name="green">Green</string>
     <string name="cyan">Cyan</string>
-    <string name="products">Products</string>
+    <string name="products">private Products</string>
     <string name="addProduct">com.jmatuszny.projekt1.ADD_PRODUCT</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="appwidget_text">Welcome</string>
+    <string name="add_widget">Add widget</string>
+    <string name="action1">com.jmatuszny.projekt1.action1</string>
+    <string name="imageAction">com.jmatuszny.projekt1.imageAction</string>
 </resources>

@@ -27,7 +27,7 @@
         app:layout_constraintBottom_toTopOf="@+id/PriceEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/IdEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/NameOfProductEditText" />
 
     <EditText
         android:id="@+id/PriceEditText"
@@ -149,14 +149,15 @@
         android:layout_marginTop="400dp"
         android:layout_marginEnd="156dp"
         android:layout_marginRight="156dp"
-        android:text="Choose id to Update/Delete"
-        app:layout_constraintBottom_toTopOf="@+id/IdEditText"
+        android:text="Choose name to Update/Delete"
+        app:layout_constraintBottom_toTopOf="@+id/NameOfProductEditText"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.311"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/IdEditText"
+        android:id="@+id/NameOfProductEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -165,8 +166,7 @@
         android:layout_marginRight="100dp"
         android:layout_marginBottom="25dp"
         android:ems="10"
-        android:hint="Id"
-        android:inputType="number"
+        android:hint="Name of product"
         app:layout_constraintBottom_toTopOf="@+id/NameEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
